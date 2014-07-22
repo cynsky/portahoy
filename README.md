@@ -1,4 +1,4 @@
-portahoy
+Port Ahoy!
 ========
 
 Visualizing vessel traffic in the Port of Singapore
