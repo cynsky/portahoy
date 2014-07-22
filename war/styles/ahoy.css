@@ -1,0 +1,94 @@
+/* Custom Styles
+ ********************************************************/
+p.essay {
+	margin: 2em 0 2em 0;
+	text-align: justify;
+}
+
+.fill-height {
+	height: 100%;
+	min-height: 100%;
+}
+
+.fill-width {
+	width: 100%;
+	min-width: 100%;
+}
+
+.zero-bottom-margin {
+	margin-bottom: 0;
+}
+
+.panel-float {
+	background-color: #000000;
+	background-image: none;
+	opacity: 0.7;
+	filter: alpha(opacity=50);
+	z-index: 99;
+}
+
+#map-menu {
+	height: 3em;
+	width: 20em;
+	position: absolute;
+	top: 5em;
+	left: 10em;
+}
+
+#map-menu label {
+	color: #ffffff;
+	
+}
+
+/* Timeline
+ ********************************************************/
+
+#timeline-container {
+	height: 15%;
+}
+
+/* Maps
+ ********************************************************/
+/*
+ Fix for bootstrap conflict with google maps
+ @url http://stackoverflow.com/questions/9141249/twitter-bootstrap-css-affecting-google-maps
+ @url https://github.com/twitter/bootstrap/issues/2410
+ */
+#map-canvas img {
+	max-width: none;
+}
+
+#map-canvas {
+	height: 75%; /* no vertical scrollbar at 1280x800 resolution */
+}
+
+/* Charts
+ ********************************************************/
+
+.chart-container {
+	margin: 3em 0 3em 0;
+}
+
+.chart {
+	margin: 0 0 0 0;
+	height: 25em;
+}
+
+.chart-caption {
+	margin: 1em 0 0 0;
+}
+
+.date-slider {
+	margin: 0 0 1em 0;
+	height: 5em;
+}
+
+/* Social Buttons
+ ********************************************************/
+#fb-like-button {
+	margin-right: 1.2em;
+}
+
+#fb-like-button, #gplus-button, #tweet-button {
+	margin-top: .7em;
+}
